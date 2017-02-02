@@ -1,14 +1,15 @@
-
-public class Player
+import java.util.Scanner;
+public class Player 
 {
-	static String name;
-	static int money;
+	String name;
+	int money;
+	static Player p=new Player(MainMenu.name, MainMenu.money);
 	public Player(String n, int m)
 	{
 		name=n;
 		money=m;
 	}
-	public String getName()
+	public  String getName()
 	{
 		return name;
 	}
@@ -20,7 +21,7 @@ public class Player
 	{
 		return money;
 	}
-	public void setMoney()
+	public void setMoney(int money)
 	{
 		this.money=money;
 	}
@@ -28,8 +29,5 @@ public class Player
 	{
 		return "Name: "+name+"; Economy:"+money;
 	}
-	public void playTime()
-	{
-		
-	}
+	
 }

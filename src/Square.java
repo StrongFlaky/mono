@@ -34,7 +34,7 @@ public class Square extends Board
 	}
 
 	public  void setName(String name) {
-		name = name;
+		this.name = name;
 	}
 
 	public  int getValue() {
@@ -42,7 +42,7 @@ public class Square extends Board
 	}
 
 	public  void setValue(int value) {
-		value = value;
+		this.value = value;
 	}
 
 	public  String getColor() {
@@ -50,7 +50,7 @@ public class Square extends Board
 	}
 
 	public  void setColor(String color) {
-		color = color;
+		this.color = color;
 	}
 
 	public  boolean isPermission() {
@@ -58,7 +58,7 @@ public class Square extends Board
 	}
 
 	public  void setPermission(boolean permission) {
-		permission = permission;
+		this.permission = permission;
 	}
 
 	public  String getOccupation() {
@@ -66,7 +66,7 @@ public class Square extends Board
 	}
 
 	public  void setOccupation(String occupation) {
-		occupation = occupation;
+		this.occupation = occupation;
 	}
 
 	public  int getNumber() {
@@ -74,7 +74,7 @@ public class Square extends Board
 	}
 
 	public  void setNumber(int number) {
-		number = number;
+		this.number = number;
 	}
 
 	public String toString()
