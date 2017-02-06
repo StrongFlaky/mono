@@ -7,7 +7,7 @@ public class MainMenu
 	{
 		introduction();
 		Player p=new Player(name, money);//the only way to create an object after doing blueprint in "Player" class
-		Board.setBoard();
+		Map.mapVersion();
 		Play.playTime();
 	}
 	public static void introduction()

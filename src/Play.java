@@ -4,7 +4,7 @@ public class Play
 {
 	public static void playTime()
 	{
-		int location=-1;
+		int location=0;
 		
 		while(Player.p.getMoney()>0)
 		{
