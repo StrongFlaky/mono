@@ -79,6 +79,6 @@ public class Square extends Board
 
 	public String toString()
 	{
-		return "Order: "+order+"; Name:"+name+"; Value: "+value+"; Color:"+color+"; Permission:"+permission+"; Occupation:"+occupation+"; Number:"+number;
+		return "Position: "+order+"; Name: "+name+"; Price: "+value+"; Color:"+color+"; Permission:"+permission+"; Occupation: "+occupation+"; Number:"+number;
 	}
 }
