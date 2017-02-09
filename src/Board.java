@@ -51,7 +51,7 @@ public class Board
 			board.add(new Square(40,"Collect $200", 0, "none", false, "none", 0));
 			for(int i=0; i<=39; i++)
 			{
-				System.out.println(board.get(i));
+				//System.out.println(board.get(i));
 			}
 		}
 		else
@@ -98,7 +98,7 @@ public class Board
 			board.add(new Square(40,"Trailhead", 0, "none", false, "none", 0));
 			for(int i=0; i<=39; i++)
 			{
-				System.out.println(board.get(i));
+				//System.out.println(board.get(i));
 			}
 		}
 	}

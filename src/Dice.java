@@ -7,7 +7,8 @@ public class Dice
 		System.out.println("Press any key to roll the dice.");
 		String word=scan.nextLine();
 		int die1=(int)(Math.random()*6)+1;
-		return die1;
+		int die2=(int)(Math.random()*6)+1;
+		return die1+die2;
 	}
 }
 

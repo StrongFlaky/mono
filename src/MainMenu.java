@@ -22,7 +22,7 @@ public class MainMenu
 		System.out.println("Please enter your name.");
 		Scanner scan=new Scanner(System.in);
 		name=scan.nextLine();
-		System.out.println("Now enter the amount of money you and your opponent want to have.");
+		System.out.println("Welcome "+name+"! Now enter the amount of money you want to have.");
 		Scanner scan1=new Scanner(System.in);
 		money=scan.nextInt();
 		if(money<=0)
